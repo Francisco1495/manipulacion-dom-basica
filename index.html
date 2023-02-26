@@ -7,11 +7,14 @@
     <title>Manipulacion del DOM basica - Curso practico de JAVASCRIPT</title>
 </head>
 <body>
-    <h1 class="verde">Manipulacion del DOM basica</h1>
-    <p>Esto es un parrafo</p>
-    <p class="parrafito">Esto es un parrafo con clase</p>
-    <p id="pid">Esto es un parrafo con ID</p>
-    <input placeholder="Escribe algo aqui" value="123">
+    <h1>Manipulacion del DOM basica</h1>
+
+    <input id="calculo1" placeholder="Escribe algo aqui">
+    <input  id="calculo2" placeholder="Escribe algo aqui">
+    <button onclick="btnOnclick()" id="btnCalcular">Calcular</button>
+
+    <p id="result"></p> <!--Etiqueta parrafo vacia la cual sera usada para que esta aparesca una vez que el usuario interactue con nuestra pagina, esta en javascript dira "El Resultado es: "-->
+
     <script src="/script.js"></script> <!--Esta es la etiqueta que usamos para conectar HTML con Javascript-->
 </body>
 </html>
